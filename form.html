@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    body{
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .form{
+        background-color: sienna;
+        color: whitesmoke;
+        border-radius: 8px;
+        padding: 5px;
+        width: 30rem;
+        margin: auto;
+    }
+    
+    button{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: black;
+        border-radius: 5px;
+        width: 5rem;
+        height: 2rem;
+        background-color: rgb(209, 205, 205);
+    }
+
+    input, textarea{
+        border-radius: 5px;
+    }
+
+    table{
+        text-align: left;
+    }
+
+  </style>
+</head>
+<body>
+    <div class="form">
+    <form align="center">
+        <table align="center">
+        <tr>
+            <td width="200"> <label for="name"><b>Name: </b> </label> </td>
+            <td><input type="text" id="name"> </td>
+        </tr>
+        
+        <tr>
+            <td width="200"><label for="E-mail"><b>E-mail: </b> </label></td>
+            <td><input type="E-mail" id="E-mail"></td> 
+        </tr>
+
+        <tr>   
+            <td width="200"><label for="age"><b>Age: </b></label> </td> 
+            <td><input type="Number" id="age" min="0" max="100"> </td>
+        </tr>
+        
+        <tr> 
+            <td width="200"><label for="birthday"><b>Date of birth: </b></label></td>
+            <td> <input type="date" id="birthday"> </td>
+        </tr>
+
+        <tr> 
+            <td width="200"> <label for="food"><h3><b>Favourite food: </b><h3></label> </td>
+        </tr>
+
+        <tr>
+            <td width="200">
+                <tr>
+                    <td>Apple</td>
+                    <td><input type="checkbox" id="Apple"></td>
+                    
+                </tr>
+                <tr></tr>
+                     <td>Banana</td>
+                    <td><input type="checkbox" id="banana"></td>
+                </tr>
+            </td> 
+        </tr>
+            
+
+        <tr>
+            <td width="200"><h3><b>Gender: </b></h3></td>
+        </tr>
+
+        <tr>
+                <td width="200">
+                    <tr>
+                        <td><input type="radio" name="Gender" id="Male"> </td>
+                        <td>Male</td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" name="Gender" id="Female"></td>
+                        <td>Female</td>
+                    </tr>
+                </td> 
+        </tr>
+        
+    
+        <tr>
+            <td width="200"><b>Eye color: </b></td>
+            <td><select name="eyecolor" id="eyecolor" multiple>
+            <option id="Green"> Green </option> 
+            <option id="Brown"> Brown </option>
+            </select></td>
+        </tr>
+
+        <tr>
+            <td width="200"><b>Bio: </b></td>
+            <td><textarea></textarea></td> 
+        </tr>
+
+        <tr>
+            <td width="200"><b>Choose a file: </b></td>
+            <td><input type="file"> </td> 
+        </tr>
+
+        <tr>
+            <td width="200"><b>Phone: </b></td>
+            <td><input type="tel"> </td>
+        </tr>
+
+        <tr>
+            <td width="200"><b>Url: </b></td> 
+            <td><input typr="url"></td>
+        </tr>
+
+        <tr>
+            <td width="200"><b>Color: </b></td>
+            <td><input type="color"></td>
+        </tr>
+
+        <tr>
+            <td width="200" height="35"><b>Password: </b></td>
+            <td><input type="password"> </td>
+        </tr>
+
+        <tr>
+            <td width="200"><button type="reset">Reset</button></td>
+            <td><button type="submit">Submit</button></td>
+        </tr>
+
+    </table>
+</form>
+</div>
+</body>
+</html>
